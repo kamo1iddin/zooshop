@@ -1,0 +1,43 @@
+header{
+    display: flex;
+    position: sticky;
+    top: 0;
+    background: white;
+    box-shadow: 0 0 12px #868686;
+    align-items: center;
+    width: 80%;
+    height: 60px;
+    margin: 0 auto;
+    z-index: 5;
+}
+
+header img{
+    height: 100%;
+    cursor: pointer;
+}
+
+header .buttons{
+    display: flex;
+    cursor: pointer;
+    height: 56px;
+    font-size: 18px;
+    font-family: Calibri;
+    font-weight: 300;
+    align-items: center;
+    justify-content: center;
+    margin: 0 3px;
+    padding: 0 18px;
+    color: #0b6837;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+header .buttons:hover{
+    background: #0b6837;
+    color: white;
+}
+
+header .b1{
+    margin-left: 15px;
+}
+

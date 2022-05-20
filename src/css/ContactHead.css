@@ -1,0 +1,26 @@
+.contactHead{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+    background: #0b6837;
+    box-shadow: 0 0 12px #868686;
+}
+
+.contactHead .contacts{
+    margin: 0 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.contactHead .contacts a{
+    text-decoration: none;
+    color: white;
+}
+
+.contactHead .contacts a:hover{
+    text-decoration: underline;
+    color: blue;
+}

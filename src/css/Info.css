@@ -1,0 +1,43 @@
+.info{
+    display: flex;
+    width: 80%;
+    height: 520px;
+    margin: 0 auto;
+    padding-top: 20px;
+    background: white;
+    box-shadow: 0 12px 12px #868686;
+}
+
+.info .infoCard{
+    width: 360px;
+    height: 500px;
+    margin: 0 21px;
+    background: #f2f4f7;
+    border: 1px solid #0b6837;
+}
+
+.info .infoCard img{
+    width: 240px;
+    height: 200px;
+    margin: 5px 60px;
+}
+
+.info .infoCard .infoCardTitle{
+    font-size: 20px;
+    margin: 0 95px 10px;
+}
+
+.info .infoCard .t2{
+    margin-left: 120px;
+}
+
+.info .infoCard .t3{
+    margin-left: 150px;
+}
+
+.info .infoCard .infoText{
+    font-size: 14px;
+    margin: 0 20px;
+    color: #868686;
+    text-align: center;
+}

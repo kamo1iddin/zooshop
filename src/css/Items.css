@@ -1,0 +1,85 @@
+.popularItems{
+    width: 80%;
+    height: 750px;
+    margin: 0 auto;
+    padding-top: 10px;
+    background: white;
+    box-shadow: 0 -12px 12px #868686;
+}
+
+.popularItems .title{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 15px;
+    background: #0b6837;
+    color: white;
+    font-size: 19px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.popularItems .title:hover{
+    background: #04562c;
+}
+
+.popularItems .items{
+    margin: 10px 15px;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.popularItems .items .item{
+    height: 300px;
+    cursor: pointer;
+    border: 2px solid #83838a;
+    border-radius: 5px;
+    box-shadow: 0 0 5px gray;
+    transition: .4s;
+}
+
+.popularItems .items .item:hover{
+    box-shadow: 0 0 15px gray;
+    transform: scale(1.02);
+}
+
+.popularItems .items .item img{
+    width: 100%;
+    height: 210px;
+    border-radius: 5px 5px 0 0;
+}
+
+.popularItems .items .item .itemInfo{
+    text-align: center;
+    font-weight: 500;
+    color: #04562c;
+}
+
+.popularItems .items .item .itemPrice{
+    margin-top: 8px;
+    text-align: center;
+    font-weight: 500;
+    color: #04562c;
+}
+
+.popularItems .shopButton{
+    width: 60%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px auto 0;
+    background: #0b6837;
+    color: white;
+    font-size: 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.popularItems .shopButton:hover{
+    background: #04562c;
+}
